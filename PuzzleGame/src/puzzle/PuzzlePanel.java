@@ -34,7 +34,8 @@ public class PuzzlePanel extends JPanel implements ActionListener {
 		
 		//load puzzle image with exception
 		try {
-			image = ImageIO.read(new File("images/Wallpaper.png"));
+			image = ImageIO.read(new File("PuzzleGame/images/Wallpaper.png"));
+			
 		}
 		catch (IOException e) {
 			System.out.println("Puzzle image not found");
